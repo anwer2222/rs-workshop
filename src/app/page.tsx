@@ -6,22 +6,24 @@ import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 import { SiLinktree } from "react-icons/si";
 
 export default function Home() {
-  return (
+  return (// mt-[-6rem] md:mt-[-8rem] z-10
     <div className=" flex items-center flex-col">
       <div className="h-25"/>
       
       <Image src="/lo.svg" alt="" width={5000} height={5000}/>
-      <Image src="/logo4.png" className=" rounded-full mt-[-6rem] md:mt-[-8rem] z-10" alt="" width={130} height={130}/>
-      <div className="h-max w-full bg-[#f1ece7] mt-[-30px] md:mt-[0px] flex items-center flex-col">
-
-        <Image src="/logo5.png" alt="" width={400} height={400} className="mt-9 md:mt-0"/>
-
-        <h1 className="text-4xl text-center max-w-2xl mt-20"> <span className="font-bold">Workshop:</span> Create Your Flower Crown - Moments of Serenity</h1>
+      <div className="w-[80px] h-[80px] mt-[-4rem] md:w-[130px] md:h-[130px] relative md:mt-[-8rem]">
+         <Image src="/logo4.png" className=" rounded-full " alt="" fill/>
+      </div>
+      <div className="h-max w-full bg-[#f1ece7] mt-[-18px] md:mt-[-3px] flex items-center flex-col">
+         <div className="w-[200px] h-[80px] md:w-[400px] md:h-[200px] mt-9 md:mt-0 relative">
+        <Image src="/logo5.png" alt="" fill/>
+         </div>
+        <h1 className=" text-2xl md:text-4xl text-center max-w-md  md:max-w-2xl mt-20"> <span className="font-bold">Workshop:</span> Create Your Flower Crown - Moments of Serenity</h1>
         <About/>
         <div className=" flex items-center flex-col">
 
-          <hr className="bg-black h-1 w-2xl my-8"/>
-          <h1 className="text-4xl mb-8 max-w-md text-center"> Join us on Friday, July 18th from 11am to 1pm </h1>
+          <hr className="bg-black h-1 w-lg my-8"/>
+          <h1 className="text-2xl max-w-sm md:text-4xl mb-8 md:max-w-md text-center"> Join us on <span className="font-bold">Friday</span>, July 18th from 11am to 1pm </h1>
           <RadioGroupForm/>
           
         </div>
