@@ -11,10 +11,10 @@ export default function Home() {
       <div className="h-25"/>
       
       <Image src="/lo.svg" alt="" width={5000} height={5000}/>
-      <Image src="/logo4.png" className=" rounded-full mt-[-8rem]" alt="" width={130} height={130}/>
-      <div className="h-max w-full bg-[#f1ece7] flex items-center flex-col">
+      <Image src="/logo4.png" className=" rounded-full mt-[-6rem] md:mt-[-8rem] z-10" alt="" width={130} height={130}/>
+      <div className="h-max w-full bg-[#f1ece7] mt-[-30px] md:mt-[0px] flex items-center flex-col">
 
-        <Image src="/logo5.png" alt="" width={400} height={400}/>
+        <Image src="/logo5.png" alt="" width={400} height={400} className="mt-9 md:mt-0"/>
 
         <h1 className="text-4xl text-center max-w-2xl mt-20"> <span className="font-bold">Workshop:</span> Create Your Flower Crown - Moments of Serenity</h1>
         <About/>
