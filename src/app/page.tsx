@@ -1,9 +1,9 @@
 import About from "@/components/About";
 import { RadioGroupForm } from "@/components/E";
-import Form from "@/components/Form";
-import { CardDemo } from "@/components/T";
 import Image from "next/image";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import Link from "next/link";
+import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
+import { SiLinktree } from "react-icons/si";
 
 export default function Home() {
   return (
@@ -13,8 +13,7 @@ export default function Home() {
       <Image src="/lo.svg" alt="" width={5000} height={5000}/>
       <Image src="/logo4.png" className=" rounded-full mt-[-8rem]" alt="" width={130} height={130}/>
       <div className="h-max w-full bg-[#f1ece7] flex items-center flex-col">
-        {/* <h1 className="text-[#d3afab] text-8xl">ROSE NEST</h1>
-        <p className="text-2xl p-7">&#9866; Flowers Sense &#9866;</p> */}
+
         <Image src="/logo5.png" alt="" width={400} height={400}/>
 
         <h1 className="text-4xl text-center max-w-2xl mt-20"> <span className="font-bold">Workshop:</span> Create Your Flower Crown - Moments of Serenity</h1>
@@ -34,10 +33,18 @@ export default function Home() {
           })}
         </div>
         <div className="flex justify-center gap-5 text-[#d3afab] text-2xl">
+          <Link href="https://www.facebook.com/IFnest?">
             <FaFacebook />
-            <FaTwitter />
+          </Link>
+          <Link href="https://www.tiktok.com/@rosenest21">
+            <FaTiktok />
+          </Link>
+            <Link href="https://instagram.com/rose__nest">
             <FaInstagram />
-            <FaLinkedin />
+            </Link>
+            <Link href="https://linktr.ee/rose_nest_">
+            <SiLinktree />
+            </Link>
         </div>
         <h1 className="text-gray-500 my-2">© 2025 - Rose Nest - All Rights Reserved - جميع الحقوق محفوظة</h1>
 
