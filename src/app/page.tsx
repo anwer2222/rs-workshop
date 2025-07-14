@@ -15,14 +15,14 @@ export default function Home() {
          <Image src="/logo4.png" className=" rounded-full " alt="" fill/>
       </div>
       <div className="h-max w-full bg-[#f1ece7] mt-[-18px] md:mt-[-3px] flex items-center flex-col">
-         <div className="w-[200px] h-[80px] md:w-[400px] md:h-[200px] mt-9 md:mt-0 relative">
+         <div className="w-[200px] h-[80px] md:w-[400px] md:h-[170px] mt-9 md:mt-0 relative">
         <Image src="/logo5.png" alt="" fill/>
          </div>
         <h1 className=" text-2xl md:text-4xl text-center max-w-md  md:max-w-2xl mt-20"> <span className="font-bold">Workshop:</span> Create Your Flower Crown - Moments of Serenity</h1>
         <About/>
         <div className=" flex items-center flex-col">
 
-          <hr className="bg-black h-1 w-lg my-8"/>
+          <hr className="bg-black h-1 w-[280px] md:w-lg my-8"/>
           <h1 className="text-2xl max-w-sm md:text-4xl mb-8 md:max-w-md text-center"> Join us on <span className="font-bold">Friday</span>, July 18th from 11am to 1pm </h1>
           <RadioGroupForm/>
           
