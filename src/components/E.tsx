@@ -96,7 +96,7 @@ export function RadioGroupForm() {
                                                     <RadioGroupItem value="two" />
                                                 </FormControl>
                                                 <FormLabel className="font-normal">
-                                                    Two peoples ($115) <span className="text-red-500 font-bold">15% discount </span>
+                                                    Two people ($115) <span className="text-red-500 font-bold">15% discount </span>
                                                 </FormLabel>
                                             </FormItem>
                                         </RadioGroup>

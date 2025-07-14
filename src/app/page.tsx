@@ -9,16 +9,17 @@ export default function Home() {
   return (// mt-[-6rem] md:mt-[-8rem] z-10
     <div className=" flex items-center flex-col">
       <div className="h-25"/>
-      
-      <Image src="/lo.svg" alt="" width={5000} height={5000}/>
+        <div className="w-screen h-[30px] md:h-[80px] relative">
+         <Image src="/lo.svg" alt="" fill/>
+        </div>
       <div className="w-[80px] h-[80px] mt-[-4rem] md:w-[130px] md:h-[130px] relative md:mt-[-8rem]">
          <Image src="/logo4.png" className=" rounded-full " alt="" fill/>
       </div>
       <div className="h-max w-full bg-[#f1ece7] mt-[-18px] md:mt-[-3px] flex items-center flex-col">
          <div className="w-[200px] h-[80px] md:w-[400px] md:h-[170px] mt-9 md:mt-0 relative">
-        <Image src="/logo5.png" alt="" fill/>
+            <Image src="/logo5.png" alt="" fill/>
          </div>
-        <h1 className=" text-2xl md:text-4xl text-center max-w-md  md:max-w-2xl mt-20"> <span className="font-bold">Workshop:</span> Create Your Flower Crown - Moments of Serenity</h1>
+        <h1 className="text-2xl md:text-4xl text-center max-w-sm  md:max-w-2xl mt-20"> <span className="font-bold">Workshop:</span> Create Your Flower Crown - Moments of Serenity</h1>
         <About/>
         <div className=" flex items-center flex-col">
 
@@ -48,7 +49,7 @@ export default function Home() {
             <SiLinktree />
             </Link>
         </div>
-        <h1 className="text-gray-500 my-2 text-center">© 2025 - Rose Nest - All Rights Reserved - جميع الحقوق محفوظة</h1>
+        <h1 className="text-gray-500 my-8 text-center text-[10px]">© 2025 - Rose Nest - All Rights Reserved - جميع الحقوق محفوظة</h1>
 
       </div>
     </div>
