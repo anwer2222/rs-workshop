@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body //  bg-cover bg-no-repeat bg-center
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[url(/hangryhippo.png)] bg-fixed`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[url(/hangryhippo.png)] bg-fixed bg-size-[1000px] md:bg-auto overflow-x-hidden`}
       >
         {children}
       </body>

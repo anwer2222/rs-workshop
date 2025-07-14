@@ -46,7 +46,7 @@ export default function Home() {
             <SiLinktree />
             </Link>
         </div>
-        <h1 className="text-gray-500 my-2">© 2025 - Rose Nest - All Rights Reserved - جميع الحقوق محفوظة</h1>
+        <h1 className="text-gray-500 my-2 text-center">© 2025 - Rose Nest - All Rights Reserved - جميع الحقوق محفوظة</h1>
 
       </div>
     </div>
