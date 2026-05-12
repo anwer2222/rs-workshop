@@ -47,7 +47,8 @@ export function RadioGroupForm() {
         console.log(data)
         // Redirect based on selected option
         if (data.type === "one") {
-            router.push("https://buy.stripe.com/7sY28raliasH8618324Vy03")
+            router.push("https://buy.stripe.com/aFa5kD1OM9oDgCx3MM4Vy05")
+            // router.push("https://buy.stripe.com/7sY28raliasH8618324Vy03") // 65
         } else if (data.type === "two") {
             router.push("https://buy.stripe.com/14AbJ150YbwLcmhgzy4Vy04")
         }
