@@ -63,9 +63,9 @@ export function RadioGroupForm() {
     return (
         <Card className="w-full max-w-sm">
             <CardHeader>
-                        <CardTitle>Limited places</CardTitle>
+                        <CardTitle>Registration</CardTitle>
                         <CardDescription>
-                            Located on Crystal Café - barrhaven. Last day for registration on Wednesday 16th.
+                            Located on Crystal Café - barrhaven. join us today.
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
@@ -76,7 +76,7 @@ export function RadioGroupForm() {
                             name="type"
                             render={({ field }) => (
                                 <FormItem className="space-y-3">
-                                    <FormLabel>Select the special offer</FormLabel>
+                                    <FormLabel></FormLabel>
                                     <FormControl>
                                         <RadioGroup
                                             onValueChange={field.onChange}
@@ -88,17 +88,17 @@ export function RadioGroupForm() {
                                                     <RadioGroupItem value="one" />
                                                 </FormControl>
                                                 <FormLabel className="font-normal">
-                                                    One person($65)
+                                                    One person($70)
                                                 </FormLabel>
                                             </FormItem>
-                                            <FormItem className="flex items-center gap-3">
+                                            {/* <FormItem className="flex items-center gap-3">
                                                 <FormControl>
                                                     <RadioGroupItem value="two" />
                                                 </FormControl>
                                                 <FormLabel className="font-normal">
                                                     Two people ($115) <span className="text-red-500 font-bold">15% discount </span>
                                                 </FormLabel>
-                                            </FormItem>
+                                            </FormItem> */}
                                         </RadioGroup>
                                     </FormControl>
                                     <FormMessage />

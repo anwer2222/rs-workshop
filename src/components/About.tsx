@@ -3,13 +3,13 @@ import React from "react";
 import Image from "next/image";
 
 const p= [
-"Join our Flower Crown Workshop at a warm, cozy café.",
-"Step away from daily stress and immerse yourself in moments of harmony and happiness. enjoy designing beautiful, fragrant crowns together.",
+"Join our Flower Arrangment Workshop at a warm, cozy café.",
+"Step away from daily stress and immerse yourself in moments of harmony and happiness. enjoy designing beautiful, fragrant together.",
 "What you will gain:",
 "- Learn a new artistic skill",
 "- Boost your mood and relieve stress",
 "- Gently strengthen your hands in a calm, creative way",
-"- Savor a warm cup of tea or coffee and a sweet treat to elevate your happiness",
+// "- Savor a warm cup of tea or coffee and a sweet treat to elevate your happiness",
 "Enjoy special moments and a soulful, recharging atmosphere",
 "This workshop is a journey to your own self, a gift for your inner and outer beauty. Reserve your spot and embrace the moment!"
 ]

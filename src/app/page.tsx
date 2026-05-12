@@ -19,12 +19,12 @@ export default function Home() {
          <div className="w-[200px] h-[80px] md:w-[400px] md:h-[170px] mt-9 md:mt-0 relative">
             <Image src="/logo5.png" alt="" fill/>
          </div>
-        <h1 className="text-2xl md:text-4xl text-center max-w-sm  md:max-w-2xl mt-20"> <span className="font-bold">Workshop:</span> Create Your Flower Crown - Moments of Serenity</h1>
+        <h1 className="text-2xl md:text-4xl text-center max-w-sm  md:max-w-2xl mt-20"> <span className="font-bold">Workshop:</span> Create Your Flower Arrangment - Moments of Serenity</h1>
         <About/>
         <div className=" flex items-center flex-col">
 
           <hr className="bg-black h-1 w-[280px] md:w-lg my-8"/>
-          <h1 className="text-2xl max-w-sm md:text-4xl mb-8 md:max-w-md text-center"> Join us on <span className="font-bold">Friday</span>, July 18th from 11am to 1pm </h1>
+          <h1 className="text-2xl max-w-sm md:text-4xl mb-8 md:max-w-md text-center"> Join us on today</h1>
           <RadioGroupForm/>
           
         </div>
@@ -39,9 +39,9 @@ export default function Home() {
           <Link href="https://www.facebook.com/IFnest?">
             <FaFacebook />
           </Link>
-          <Link href="https://www.tiktok.com/@rosenest21">
+          {/* <Link href="https://www.tiktok.com/@rosenest21">
             <FaTiktok />
-          </Link>
+          </Link> */}
             <Link href="https://instagram.com/rose__nest">
             <FaInstagram />
             </Link>
@@ -49,7 +49,7 @@ export default function Home() {
             <SiLinktree />
             </Link>
         </div>
-        <h1 className="text-gray-500 my-8 text-center text-[10px]">© 2025 - Rose Nest - All Rights Reserved - جميع الحقوق محفوظة</h1>
+        <h1 className="text-gray-500 my-8 text-center text-[10px]">© 2026 - Rose Nest - All Rights Reserved</h1>
 
       </div>
     </div>
