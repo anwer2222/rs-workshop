@@ -66,7 +66,9 @@ export function RadioGroupForm() {
             <CardHeader>
                         <CardTitle>Registration</CardTitle>
                         <CardDescription>
-                            Located on Crystal Café - barrhaven. join us today.
+                            Located on Crystal Café - barrhaven. 
+                            <br/>
+                            Date: June 20th - Saturday 4-6 PM. 
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
